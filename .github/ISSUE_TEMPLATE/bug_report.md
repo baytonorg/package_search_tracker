@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help improve MANAGED SETTINGS
+about: Create a report to help improve PACKAGE SEARCH
 title: 'Issue: '
 labels: bug
 assignees: jasonbayton
