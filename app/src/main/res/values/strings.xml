@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Titles and such -->
     <string name="app_name">PACKAGE SEARCH</string>
@@ -12,14 +13,21 @@
     <string name="unavailable_apps_learn_more">Learn more</string>
     <string name="unavailable_apps_learn_more_cont">about Android Enterprise &amp; vital apps.</string>
 
-    <!-- Filter / sort -->
+    <!-- Filter / sort - Used for the name of each "Sort by" option within the filter dialogue, as well as referenced in the main activity -->
     <string name="filter_option_title">Title</string>
     <string name="filter_option_pname">Package name</string>
     <string name="filter_option_idate">Install date</string>
     <string name="filter_option_utime">Last update</string>
 
+    <!-- Filter popup -->
+    <string name="filter_app_state_title">App state</string>
+    <string name="filter_app_type_title">App type</string>
+    <string name="sort_title">Sort by</string>
+    <string name="close_popup">Close</string>
+
     <!-- Search function -->
     <!-- Filter options. These define how apps are filtered, e.g. min:23 -->
+    <!-- also used throughout the application for logic. Any translation must be a one-word equivalent -->
     <string name="filter_name">name</string>
     <string name="filter_package">package</string>
     <string name="filter_version">version</string>
@@ -48,12 +56,6 @@
     <!-- Not found & messages -->
     <string name="not_found">No applications found matching your search or chosen filter. Try again or check the spelling?</string>
     <string name="no_more_results">There are no more results</string>
-
-    <!-- Filter popup -->
-    <string name="filter_app_state_title">App state</string>
-    <string name="filter_app_type_title">App type</string>
-    <string name="sort_title">Sort by</string>
-    <string name="close_popup">Close</string>
 
     <!-- Toasts -->
     <string name="toast_no_browser">No browser available</string>
