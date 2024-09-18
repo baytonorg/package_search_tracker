@@ -1,0 +1,154 @@
+<!-- contribution 2024-09-18 ; weberda-n -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Titles and such -->
+    <string name="app_name">PACKAGE SEARCH</string>
+    <string name="app_launcher_name">PACKAGE SEARCH</string>
+    <string name="app_topbar_title">Package Search</string>
+    <string name="search_label">Suchen</string>
+    <string name="intro_text">Suche oder scrolle in der Liste. Tippe auf eine Karte für mehr Details oder halte um den Package Namen zu kopieren. Apps mit langen Package Namen können horizontal gescrollt werden.</string>
+
+    <!-- Unavailable apps content -->
+    <string name="unavailable_apps_title">Nicht verfügbare Apps</string>
+    <string name="unavailable_apps_text">Die folgenden Apps werden mit diesem Android build ausgeliefert, sind aber nicht für den aktuellen Benutzer verfügbar. Das kann an einer Carrier spezifischen Konfiguration (Laufzeitressourcen-Overlay, RRO) liegen oder weil das Gerät verwaltet wird.</string>
+    <string name="unavailable_apps_learn_more">Erfahre mehr</string>
+    <string name="unavailable_apps_learn_more_cont">zu Android Enterprise &amp; wesentlichen apps.</string>
+
+    <!-- Filter / sort - Used for the name of each "Sort by" option within the filter dialogue, as well as referenced in the main activity -->
+    <string name="filter_option_title">App Name</string>
+    <string name="filter_option_pname">Package Name</string>
+    <string name="filter_option_idate">Installationsdatum</string>
+    <string name="filter_option_utime">Zuletzt aktualisiert</string>
+
+    <!-- Filter popup -->
+    <string name="filter_app_state_title">App Status</string>
+    <string name="filter_app_type_title">App Typ</string>
+    <string name="sort_title">Sortieren nach</string>
+    <string name="close_popup">Schließen</string>
+
+    <!-- Search function -->
+    <!-- Filter options. These define how apps are filtered, e.g. min:23 -->
+    <!-- also used throughout the application for logic. Any translation must be a one-word equivalent -->
+    <string name="filter_name">name</string>
+    <string name="filter_package">package</string>
+    <string name="filter_version">version</string>
+    <string name="filter_code">code</string>
+    <string name="filter_target">ziel</string>
+    <string name="filter_min">min</string>
+    <string name="filter_profile">profil</string>
+    <string name="filter_state">status</string>
+    <string name="filter_type">typ</string>
+    <string name="filter_source">quelle</string>
+    <string name="filter_state_enabled">aktiv</string>
+    <string name="filter_state_disabled">deaktiviert</string>
+    <string name="filter_state_unavailable">nichtverfuegbar</string>
+    <string name="filter_type_user">nutzer</string>
+    <string name="filter_type_system">system</string>
+    <string name="filter_type_other">sonstige</string>
+
+    <!-- App states & status -->
+    <string name="app_state_enabled">Aktiv</string>
+    <string name="app_state_disabled">Deaktiviert</string>
+    <string name="app_state_unavailable">Nicht verfügbar</string>
+    <string name="app_type_user">Nutzer</string>
+    <string name="app_type_system">System</string>
+    <string name="app_type_other_profiles">Andere(r) Nutzer</string>
+
+    <!-- Not found & messages -->
+    <string name="not_found">Keine apps gefunden, die der Suche oder den gewählten Filtern entsprechen. Versuche es erneut oder prüfe die Eingabe?</string>
+    <string name="no_more_results">Keine weiteren Ergebnisse vorhanden</string>
+
+    <!-- Toasts -->
+    <string name="toast_no_browser">Kein Browser vorhanden</string>
+    <string name="toast_pname_copied">Package Name in Zwischenablage kopiert</string>
+    <string name="toast_unavailable_no_info">Nicht verfügbare Apps liefern keine Informationen</string>
+    <string name="toast_export_failed">Export der Daten fehlgeschlagen</string>
+    <string name="toast_no_app_available">Keine Applikation verfügbar</string>
+    <string name="toast_app_no_can_launch">Ausüfhrung der App nicht unterstützt</string>
+    <string name="toast_failed_download_data">Export der App-Daten fehlgeschlagen</string>
+
+    <!-- App details -->
+    <string name="app_details_version_code">Version (Code)</string>
+    <string name="app_details_version">Version</string>
+    <string name="app_details_code">Versions-Bezeichner</string>
+    <string name="app_details_installed">Installiert</string>
+    <string name="app_details_updated">Aktualisiert</string>
+    <string name="app_details_undetermined">Unbestimmt</string>
+    <string name="app_details_nodata">No data</string>
+    <string name="app_details_target_version">Ziel Android Version</string>
+    <string name="app_details_minimum_version">Mindest Android Version</string>
+    <string name="app_details_other_users">Andere(r) Nutzer</string>
+    <string name="app_details_state">Status</string>
+    <string name="app_details_type">Typ</string>
+    <string name="app_details_source">Ursprung</string>
+
+    <string name="app_details_preloaded">Vorinstalliert</string>
+    <string name="app_details_preloaded_via_play">Vorinstalliert, über Play aktualisiert</string>
+    <string name="app_details_unknown_source">Unbekannte Quelle</string>
+    <string name="app_details_category_too_low">Android Version zu gering, um Kategorie zu ermitteln</string>
+
+    <string name="install_warning">System Apps liefern üblicherweise kein zuverlässiges Datum.</string>
+
+    <string name="app_details_play_app_category">Play App Kategorie</string>
+
+    <string name="app_details_permissions_title">Berechtigungen</string>
+    <string name="app_details_permissions_granted">Zugelassen</string>
+    <string name="app_details_permissions_not_granted">Nicht zugelassen</string>
+
+    <string name="app_details_general_title">Allgemeine Informationen</string>
+    <string name="app_details_manifest_title">Manifest</string>
+    <string name="app_details_activities_title">Aktivitäten</string>
+    <string name="app_details_services_title">Dienste</string>
+    <string name="app_details_receivers_title">Empfänger</string>
+    <string name="app_details_providers_title">Anbieter</string>
+
+    <string name="manifest_permissions_title">Manifest Berechtigungen</string>
+
+    <string name="app_details_not_found">App Details nicht gefunden</string>
+    <string name="app_details_no_permissions">Keine Berechtigungen deklariert.</string>
+    <string name="app_details_no_info">Keine Informationen gefunden.</string>
+
+    <string name="open_app_action">App öffnen</string>
+    <string name="open_app_info_action">App-Info</string>
+    <string name="open_google_play_action">Google Play</string>
+    <string name="download_app_data_action">Daten exportieren</string>
+
+    <!-- Alert dialogue -->
+    <string name="alert_export_dialog_title">Export abgeschlossen</string>
+    <string name="alert_export_dialog_text">Möchtest du die Datei öffnen oder teilen?</string>
+    <string name="alert_action_open">Öffnen</string>
+    <string name="alert_action_share">Teilen</string>
+
+    <string name="intent_package_updated">Package aktualisiert: %1$s</string>
+    <string name="intent_package_added">Package hinzugefügt: %1$s</string>
+    <string name="intent_package_changed">Package geändert: %1$s</string>
+    <string name="intent_package_removed">Package entfernt: %1$s</string>
+    <string name="intent_package_action">Package Aktion: %1$s für %2$s</string>
+
+    <!-- Settings -->
+    <string name="available_actions_title">Aktionen</string>
+    <string name="app_details_title">App-Details</string>
+
+    <!-- Cards -->
+    <string name="card_support_title">Unterstützung erhalten</string>
+    <string name="card_support_text">Besuche die Projekt Webseite für Hilfe.</string>
+
+    <string name="card_discord_title">Discord beitreten</string>
+    <string name="card_discord_text">Trete dem BAYTON Discord bei um Hilfe &amp; Beratung zu erhalten.</string>
+
+    <string name="card_feedback_title">Feedback mitteilen</string>
+    <string name="card_feedback_text">Öffnet ein Browser Fenster, sofern zugelassen.</string>
+
+    <string name="card_export_title">Alle Apps in CSV exportieren</string>
+    <string name="card_export_text">Speichere oder teile eine Datei mit allen Apps.</string>
+
+    <!-- BAYTON branding -->
+    <string name="about_package_search">PACKAGE SEARCH ist ein Android Management Projekt von bayton.org. Für Aktionen und App Unterstützung tippe bitte in der rechten oberen Ecke auf Einstellungen.</string>
+
+    <!-- Generic -->
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="unknown">Unbekannt</string>
+
+</resources>
