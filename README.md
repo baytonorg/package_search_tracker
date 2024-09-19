@@ -73,7 +73,7 @@ Here’s a template you can follow when contributing. Be mindful of the comments
     <string name="close_popup">Close</string>
 
     <!-- Search function -->
-    <!-- Filter options. These define how apps are filtered, e.g. min:23 -->
+    <!-- Filter keys. These define how apps are filtered, e.g. min:23 -->
     <!-- also used throughout the application for logic. Any translation must be a one-word equivalent -->
     <string name="filter_name">name</string>
     <string name="filter_package">package</string>
@@ -85,12 +85,15 @@ Here’s a template you can follow when contributing. Be mindful of the comments
     <string name="filter_state">state</string>
     <string name="filter_type">type</string>
     <string name="filter_source">source</string>
+
+    <!-- Filter values. Must also be one-word, and must match the app states/status -->
+    <!-- These are filter-unique values that ensure the correct apps are shown when searching or filtering -->
     <string name="filter_state_enabled">enabled</string>
     <string name="filter_state_disabled">disabled</string>
     <string name="filter_state_unavailable">unavailable</string>
     <string name="filter_type_user">user</string>
     <string name="filter_type_system">system</string>
-    <string name="filter_type_other">other</string>
+    <string name="filter_type_other">other</string> <!-- must match the unique word of type_other_profiles, otherwise it will filter both apps in other profiles "other" and type "user" together -->
 
     <!-- App states & status -->
     <string name="app_state_enabled">Enabled</string>
@@ -98,7 +101,7 @@ Here’s a template you can follow when contributing. Be mindful of the comments
     <string name="app_state_unavailable">Unavailable</string>
     <string name="app_type_user">User</string>
     <string name="app_type_system">System</string>
-    <string name="app_type_other_profiles">other users</string>
+    <string name="app_type_other_profiles">other users</string> <!-- should loosely match app_details_other_users. Lower case -->
 
     <!-- Not found & messages -->
     <string name="not_found">No applications found matching your search or chosen filter. Try again or check the spelling?</string>
