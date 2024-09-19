@@ -26,7 +26,7 @@
     <string name="close_popup">Cerrar</string>
 
     <!-- Search function -->
-    <!-- Filter options. These define how apps are filtered, e.g. min:23 -->
+    <!-- Filter keys. These define how apps are filtered, e.g. min:23 -->
     <!-- also used throughout the application for logic. Any translation must be a one-word equivalent -->
     <string name="filter_name">nombre</string>
     <string name="filter_package">paquete</string>
@@ -38,12 +38,15 @@
     <string name="filter_state">estado</string>
     <string name="filter_type">tipo</string>
     <string name="filter_source">fuente</string>
+    
+    <!-- Filter values. Must also be one-word, and must match the app states/status -->
+    <!-- These are filter-unique values that ensure the correct apps are shown when searching or filtering -->
     <string name="filter_state_enabled">habilitado</string>
     <string name="filter_state_disabled">deshabilitado</string>
     <string name="filter_state_unavailable">indisponible</string>
     <string name="filter_type_user">usuario</string>
     <string name="filter_type_system">sistema</string>
-    <string name="filter_type_other">otro</string>
+    <string name="filter_type_other">otro</string> <!-- must match the unique word of type_other_profiles, otherwise it will filter both apps in other profiles "other" and type "user" together -->
 
     <!-- App states & status -->
     <string name="app_state_enabled">Habilitado</string>
@@ -51,7 +54,7 @@
     <string name="app_state_unavailable">Indisponible</string>
     <string name="app_type_user">Usuario</string>
     <string name="app_type_system">Sistema</string>
-    <string name="app_type_other_profiles">otros usuarios</string>
+    <string name="app_type_other_profiles">otros usuarios</string> <!-- should loosely match app_details_other_users. Lower case -->
 
     <!-- Not found & messages -->
     <string name="not_found">No se encontraron aplicaciones que coincidan con tu búsqueda o filtro elegido. ¿Inténtalo de nuevo o verifica la ortografía?</string>
