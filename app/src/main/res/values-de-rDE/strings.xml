@@ -1,5 +1,3 @@
-<!-- contribution 2024-09-18 ; weberda-n -->
-
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Titles and such -->
@@ -28,7 +26,7 @@
     <string name="close_popup">Schließen</string>
 
     <!-- Search function -->
-    <!-- Filter options. These define how apps are filtered, e.g. min:23 -->
+    <!-- Filter keys. These define how apps are filtered, e.g. min:23 -->
     <!-- also used throughout the application for logic. Any translation must be a one-word equivalent -->
     <string name="filter_name">name</string>
     <string name="filter_package">package</string>
@@ -40,23 +38,26 @@
     <string name="filter_state">status</string>
     <string name="filter_type">typ</string>
     <string name="filter_source">quelle</string>
+
+    <!-- Filter values. Must also be one-word, and must match the app states/status -->
+    <!-- These are filter-unique values that ensure the correct apps are shown when searching or filtering -->
     <string name="filter_state_enabled">aktiv</string>
     <string name="filter_state_disabled">deaktiviert</string>
-    <string name="filter_state_unavailable">nichtverfuegbar</string>
+    <string name="filter_state_unavailable">unerreichbar</string>
     <string name="filter_type_user">nutzer</string>
     <string name="filter_type_system">system</string>
-    <string name="filter_type_other">sonstige</string>
+    <string name="filter_type_other">sonstige</string> <!-- must match the unique word of type_other_profiles, otherwise it will filter both apps in other profiles "other" and type "user" together -->
 
     <!-- App states & status -->
     <string name="app_state_enabled">Aktiv</string>
     <string name="app_state_disabled">Deaktiviert</string>
-    <string name="app_state_unavailable">Nicht verfügbar</string>
+    <string name="app_state_unavailable">Unerreichbar</string>
     <string name="app_type_user">Nutzer</string>
     <string name="app_type_system">System</string>
-    <string name="app_type_other_profiles">Andere(r) Nutzer</string>
+    <string name="app_type_other_profiles">Sonstige Nutzer</string> <!-- should loosely match app_details_other_users -->
 
     <!-- Not found & messages -->
-    <string name="not_found">Keine apps gefunden, die der Suche oder den gewählten Filtern entsprechen. Versuche es erneut oder prüfe die Eingabe?</string>
+    <string name="not_found">Keine Apps gefunden, die der Suche oder den gewählten Filtern entsprechen. Versuche es erneut oder prüfe die Eingabe.</string>
     <string name="no_more_results">Keine weiteren Ergebnisse vorhanden</string>
 
     <!-- Toasts -->
@@ -65,7 +66,7 @@
     <string name="toast_unavailable_no_info">Nicht verfügbare Apps liefern keine Informationen</string>
     <string name="toast_export_failed">Export der Daten fehlgeschlagen</string>
     <string name="toast_no_app_available">Keine Applikation verfügbar</string>
-    <string name="toast_app_no_can_launch">Ausüfhrung der App nicht unterstützt</string>
+    <string name="toast_app_no_can_launch">Ausführung der App nicht unterstützt</string>
     <string name="toast_failed_download_data">Export der App-Daten fehlgeschlagen</string>
 
     <!-- App details -->
@@ -75,10 +76,10 @@
     <string name="app_details_installed">Installiert</string>
     <string name="app_details_updated">Aktualisiert</string>
     <string name="app_details_undetermined">Unbestimmt</string>
-    <string name="app_details_nodata">No data</string>
-    <string name="app_details_target_version">Ziel Android Version</string>
-    <string name="app_details_minimum_version">Mindest Android Version</string>
-    <string name="app_details_other_users">Andere(r) Nutzer</string>
+    <string name="app_details_nodata">Keine Daten</string>
+    <string name="app_details_target_version">Android Version (Ziel)</string>
+    <string name="app_details_minimum_version">Android Version (Min)</string>
+    <string name="app_details_other_users">Sonstige Nutzer</string>
     <string name="app_details_state">Status</string>
     <string name="app_details_type">Typ</string>
     <string name="app_details_source">Ursprung</string>
@@ -105,7 +106,7 @@
 
     <string name="manifest_permissions_title">Manifest Berechtigungen</string>
 
-    <string name="app_details_not_found">App Details nicht gefunden</string>
+    <string name="app_details_not_found">App Details nicht gefunden.</string>
     <string name="app_details_no_permissions">Keine Berechtigungen deklariert.</string>
     <string name="app_details_no_info">Keine Informationen gefunden.</string>
 
@@ -135,10 +136,10 @@
     <string name="card_support_text">Besuche die Projekt Webseite für Hilfe.</string>
 
     <string name="card_discord_title">Discord beitreten</string>
-    <string name="card_discord_text">Trete dem BAYTON Discord bei um Hilfe &amp; Beratung zu erhalten.</string>
+    <string name="card_discord_text">Trete dem BAYTON Discord bei, um Hilfe &amp; Beratung zu erhalten.</string>
 
     <string name="card_feedback_title">Feedback mitteilen</string>
-    <string name="card_feedback_text">Öffnet ein Browser Fenster, sofern zugelassen.</string>
+    <string name="card_feedback_text">Öffnet ein Browser Fenster (sofern zugelassen).</string>
 
     <string name="card_export_title">Alle Apps in CSV exportieren</string>
     <string name="card_export_text">Speichere oder teile eine Datei mit allen Apps.</string>
