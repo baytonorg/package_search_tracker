@@ -54,7 +54,7 @@
     <string name="app_state_unavailable">Unavailable</string>
     <string name="app_type_user">User</string>
     <string name="app_type_system">System</string>
-    <string name="app_type_other_profiles">other users</string> <!-- should loosely match app_details_other_users -->
+    <string name="app_type_other_profiles">other users</string> <!-- should loosely match app_details_other_users. Lower case -->
 
     <!-- Not found & messages -->
     <string name="not_found">No applications found matching your search or chosen filter. Try again or check the spelling?</string>
@@ -68,6 +68,7 @@
     <string name="toast_no_app_available">No application available</string>
     <string name="toast_app_no_can_launch">App doesn\'t support launching</string>
     <string name="toast_failed_download_data">Failed to export app data</string>
+    <string name="toast_mc_copied">Managed Configuration copied to clipboard</string>
 
     <!-- App details -->
     <string name="app_details_version_code">Version (code)</string>
@@ -103,12 +104,18 @@
     <string name="app_details_services_title">Services</string>
     <string name="app_details_receivers_title">Receivers</string>
     <string name="app_details_providers_title">Providers</string>
+    <string name="app_details_managed_configs_title">Managed configurations</string>
 
     <string name="manifest_permissions_title">Manifest permissions</string>
 
     <string name="app_details_not_found">App details not found</string>
     <string name="app_details_no_permissions">No permissions declared.</string>
     <string name="app_details_no_info">No information found.</string>
+
+    <string name="app_details_missing_delegated_scope">To show managed configurations, this application must be running within a managed environment (fully managed or work profile) and have the following scope delegated via EMM policy: \n\nMANAGED_CONFIGURATIONS \n(DELEGATION_APP_RESTRICTIONS) \n\nRead the PACKAGE SEARCH documentation for further guidance.</string>
+    <string name="app_details_managed_config_system_restrictions">Cannot access managed configurations for this app due to a system restriction.</string>
+    <string name="app_details_managed_config_low_API">Fetching managed configurations is not supported on Android versions lower than Oreo (8.0).</string>
+    <string name="app_details_managed_config_no_value">No value</string>
 
     <string name="open_app_action">Open app</string>
     <string name="open_app_info_action">App info</string>
