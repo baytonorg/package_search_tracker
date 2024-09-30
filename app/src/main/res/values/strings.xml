@@ -137,6 +137,13 @@
     <!-- Settings -->
     <string name="available_actions_title">Available actions</string>
     <string name="app_details_title">App details</string>
+    <string name="credits_title">Credits</string>
+
+    <!-- Credits dialogue -->
+    <string name="credits_dialog_subtitle">With thanks, the following people have contributed to PACKAGE SEARCH</string>
+    <string name="credits_translations_title">Translations</string>
+    <string name="credits_german">German - Daniel Weber</string>
+    <string name="credits_french">French - Thomas Weber</string>
 
     <!-- Cards -->
     <string name="card_support_title">Get support</string>
