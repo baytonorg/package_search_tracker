@@ -96,7 +96,7 @@
 
     <string name="app_details_permissions_title">Permissions</string>
     <string name="app_details_permissions_granted">Granted</string>
-    <string name="app_details_permissions_not_granted">Not granted</string>
+    <string name="app_details_permissions_not_granted">Not granted or not requested</string>
 
     <string name="app_details_general_title">General information</string>
     <string name="app_details_manifest_title">Manifest</string>
