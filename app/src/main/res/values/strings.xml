@@ -84,6 +84,8 @@
     <string name="app_details_state">State</string>
     <string name="app_details_type">Type</string>
     <string name="app_details_source">Source</string>
+    <string name="app_details_admin_receivers">Device admin receiver(s)</string>
+    <string name="app_details_signature">Application signature checksum(s)</string>
 
     <string name="app_details_preloaded">Preloaded</string>
     <string name="app_details_preloaded_via_play">Preloaded, updated via Play</string>
@@ -99,6 +101,7 @@
     <string name="app_details_permissions_not_granted">Not granted or not requested</string>
 
     <string name="app_details_general_title">General information</string>
+    <string name="app_details_dpc_title">DPC provisioning details</string>
     <string name="app_details_manifest_title">Manifest</string>
     <string name="app_details_activities_title">Activities</string>
     <string name="app_details_services_title">Services</string>
@@ -122,6 +125,8 @@
     <string name="open_google_play_action">Google Play</string>
     <string name="download_app_data_action">Export data</string>
 
+    <string name="version_update_available_text">Newer version on Google Play. Tap to review.</string>
+
     <!-- Alert dialogue -->
     <string name="alert_export_dialog_title">Export complete</string>
     <string name="alert_export_dialog_text">Do you want to open or share the file?</string>
@@ -138,6 +143,13 @@
     <string name="available_actions_title">Available actions</string>
     <string name="app_details_title">App details</string>
     <string name="credits_title">Credits</string>
+
+    <string name="version_tracking_title">Sync &amp; enable version monitoring</string>
+    <string name="version_tracking_text">This enables app version tracking via Google Play.</string>
+    <string name="version_tracking_subtext">Applications will be synced with the PING service once a day.</string>
+    <string name="sysapp_db_title">Contribute to the system apps database</string>
+    <string name="sysapp_db_text">Upload the system apps installed on this device to the BAYTON system apps database, and help to build the most comprehensive list of system apps available for Android Enterprise.</string>
+    <string name="sysapp_by_policy">Set by policy</string>
 
     <!-- Credits dialogue -->
     <string name="credits_dialog_subtitle">With thanks, the following people have contributed to PACKAGE SEARCH</string>
@@ -160,10 +172,18 @@
 
     <!-- BAYTON branding -->
     <string name="about_package_search">PACKAGE SEARCH is a modern Android management project from bayton.org. For available actions and application support, please tap settings in the top right corner.</string>
+    <string name="about_package_search_settings">PACKAGE SEARCH is a modern Android management project from bayton.org.</string>
 
     <!-- Generic -->
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="unknown">Unknown</string>
+
+    <!-- Managed Config -->
+
+    <string name="mc_title_enable_system_apps_database_sync" translatable="false">BAYTON system apps database sync</string>
+    <string name="mc_desc_enable_system_apps_database_sync" translatable="false">If enabled, this will synchronise the preloaded system apps on the device (no private or user apps are included) with the BAYTON system apps database. This is a public database on bayton.org used for cataloguing system apps for Android Enterprise. If this is disabled, sync is prevented and user-selection is not permitted unless managed configurations are cleared.</string>
+    <string name="mc_title_enable_package_version_sync" translatable="false">Application version monitoring</string>
+    <string name="mc_desc_enable_package_version_sync" translatable="false">If enabled, when selecting an application in PACKAGE SEARCH to view, the version on-device will be compared against the version(s) available in Google Play. If a newer version is found, a message will be shown to indicate this. To achieve this functionality, the package names and respective version codes of applications on the device are sent to the BAYTON PING service for comparison. This data is NOT public. If disabled, it cannot be enabled by an end-user unless managed configurations are cleared.</string>
 
 </resources>

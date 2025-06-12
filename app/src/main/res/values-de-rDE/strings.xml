@@ -84,6 +84,8 @@
     <string name="app_details_state">Status</string>
     <string name="app_details_type">Typ</string>
     <string name="app_details_source">Ursprung</string>
+    <string name="app_details_admin_receivers">Geräte Administrator Empfänger</string>
+    <string name="app_details_signature">Checksumme(n) Applikationssignatur</string>
 
     <string name="app_details_preloaded">Vorinstalliert</string>
     <string name="app_details_preloaded_via_play">Vorinstalliert, über Play aktualisiert</string>
@@ -99,6 +101,7 @@
     <string name="app_details_permissions_not_granted">Nicht zugelassen</string>
 
     <string name="app_details_general_title">Allgemeine Informationen</string>
+    <string name="app_details_dpc_title">DPC Provisionisierungsdetails</string>
     <string name="app_details_manifest_title">Manifest</string>
     <string name="app_details_activities_title">Aktivitäten</string>
     <string name="app_details_services_title">Dienste</string>
@@ -122,6 +125,8 @@
     <string name="open_google_play_action">Google Play</string>
     <string name="download_app_data_action">Daten exportieren</string>
 
+    <string name="version_update_available_text">Neuere App-Version in Google Play. Tippen zum öffnen.</string>
+
     <!-- Alert dialogue -->
     <string name="alert_export_dialog_title">Export abgeschlossen</string>
     <string name="alert_export_dialog_text">Möchtest du die Datei öffnen oder teilen?</string>
@@ -138,6 +143,13 @@
     <string name="available_actions_title">Aktionen</string>
     <string name="app_details_title">App-Details</string>
     <string name="credits_title">Danksagung</string>
+
+    <string name="version_tracking_title">Synchronisierung &amp; Aktivierung Versionsabgleich</string>
+    <string name="version_tracking_text">Aktiviert den Abgleich der App-Version mit Google Play.</string>
+    <string name="version_tracking_subtext">Apps werden einmal täglich mit dem PING Dienst abgeglichen.</string>
+    <string name="sysapp_db_title">Unterstützung der System Apps Datenbank</string>
+    <string name="sysapp_db_text">Lade die auf deinem Gerät installieren System Apps in die BAYTON System Apps Datenbank hoch und hilf, die umfassendste Liste an System Apps für Android Enterprise zu erstellen.</string>
+    <string name="sysapp_by_policy">Durch Richtlinie erzwungen</string>
 
     <!-- Credits dialogue -->
     <string name="credits_dialog_subtitle">Danke an die folgenden Personen, die PACKAGE SEARCH unterstützt haben</string>
@@ -162,6 +174,7 @@
     <string name="about_package_search">PACKAGE SEARCH ist ein Android Management Projekt von bayton.org. Für Aktionen und App Unterstützung tippe bitte in der rechten oberen Ecke auf Einstellungen.</string>
 
     <!-- Generic -->
+    <string name="about_package_search_settings">PACKAGE SEARCH ist ein Android Management Projekt von bayton.org.</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="unknown">Unbekannt</string>

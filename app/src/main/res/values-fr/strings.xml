@@ -84,6 +84,8 @@
     <string name="app_details_state">Etat</string>
     <string name="app_details_type">Type</string>
     <string name="app_details_source">Source</string>
+    <string name="app_details_admin_receivers">Device admin receiver(s)</string>
+    <string name="app_details_signature">Signature Checksum de l\'application</string>
 
     <string name="app_details_preloaded">Préinstallé</string>
     <string name="app_details_preloaded_via_play">Préinstallé, Mis à jour via Google Play</string>
@@ -99,6 +101,7 @@
     <string name="app_details_permissions_not_granted">Non accordés</string>
 
     <string name="app_details_general_title">Informations Général</string>
+    <string name="app_details_dpc_title">Détails du provisionnement DPC</string>
     <string name="app_details_manifest_title">Manifest</string>
     <string name="app_details_activities_title">Activités</string>
     <string name="app_details_services_title">Services</string>
@@ -122,6 +125,8 @@
     <string name="open_google_play_action">Google Play</string>
     <string name="download_app_data_action">Export des données</string>
 
+    <string name="version_update_available_text">Nouvelle version sur Google Play. Appuyez pour réviser.</string>
+
     <!-- Alert dialogue -->
     <string name="alert_export_dialog_title">Export terminé</string>
     <string name="alert_export_dialog_text">Voulez-vous ouvrir ou partager le fichier ?</string>
@@ -138,6 +143,13 @@
     <string name="available_actions_title">Actions disponibles</string>
     <string name="app_details_title">Détails de l\'App</string>
     <string name="credits_title">Crédits</string>
+
+    <string name="version_tracking_title">Synchroniser &amp; activer le suivi des versions</string>
+    <string name="version_tracking_text">Cette option permet d\'activer le suivi de la version de l\'application via Google Play.</string>
+    <string name="version_tracking_subtext">Les applications seront synchronisées avec le service PING une fois par jour.</string>
+    <string name="sysapp_db_title">Contribuer à la base de données des applications système</string>
+    <string name="sysapp_db_text">Téléchargez les applications système installées sur cet appareil dans la base de données d\'applications système de BAYTON, et contribuez à construire la liste la plus complète d\'applications système disponibles pour Android Enterprise.</string>
+    <string name="sysapp_by_policy">Défini par la politique</string>
 
     <!-- Credits dialogue -->
     <string name="credits_dialog_subtitle">En remerciement, voici les personnes suivantes qui ont contribués à PACKAGE SEARCH</string>
@@ -162,6 +174,7 @@
     <string name="about_package_search">PACKAGE SEARCH est un projet moderne pour la gestion des appareils Android de bayton.org. Pour connaître les actions disponibles et le support des applications, appuyez sur paramètres dans le coin supérieur droit.</string>
 
     <!-- Generic -->
+    <string name="about_package_search_settings">PACKAGE SEARCH est un projet moderne pour la gestion des appareils Android de bayton.org.</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="unknown">Inconnu</string>
